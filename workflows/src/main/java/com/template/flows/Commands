@@ -1,0 +1,12 @@
+---------Running the Cordapp ------------
+
+./gradlew clean deployNodes
+
+build/nodes/runnodes
+
+------------- Run Flow ------------------
+
+start shipmentFlow model:Cybertruck , owner:"O=SpaceX,L=Chennai,C=IN"
+
+run vaultQuery contractStateType : com.template.states.CarState
+
